@@ -11,4 +11,13 @@ syntax : array.find(function(currentValue, index, arr),thisValue)
 
 const number = [1,2,3,4,5,6,7]
 const result = number.find(number => number > 6)
-console.log(result);
+console.log(result); // outpute : 7
+
+
+const number2 = [5,3,4,6,8]
+const result2 = number2.find(number => number2 > 40)
+console.log(result2); // outpute :  undefined
+
+const number3 = []
+const result3 = number3.find(number => number3 < 10)
+console.log(result3);
