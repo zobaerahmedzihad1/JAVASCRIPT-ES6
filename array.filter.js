@@ -5,6 +5,7 @@ The filter() method does not execute the function for empty elements.
 The filter() method does not change the original array.
 
 If the filter method doesn't match anyone in that case it returns an [] empty array.
+
 */
 
 const numbers = [5, 9, 47, 7, 3, 8, 3, 15, 27];
