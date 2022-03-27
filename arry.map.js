@@ -18,3 +18,5 @@ const multiply = numbers.map((num) => {
 
 console.log(multiply); // output : [ 5, 10, 15, 20, 25, 30 ]
 console.log(numbers);
+
+
