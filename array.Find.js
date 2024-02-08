@@ -13,6 +13,11 @@ const number = [1,2,3,4,5,6,7]
 const result = number.find(number => number > 6)
 console.log(result); // output : 7
 
+// Normal function
+const result4 = number.find(function(currentValue){
+    return currentValue > 6;
+}) 
+console.log("Manual approach : ", result4);
 
 const number2 = [5,3,4,6,8]
 const result2 = number2.find(number => number2 > 40)
