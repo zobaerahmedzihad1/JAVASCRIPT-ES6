@@ -9,10 +9,10 @@
 
 */
 
-const myVar = 0;
+let myVariable = false;
 
-if (myVar) {
-  console.log("I'm truthy.");
-} else {
-  console.log("I'm falsy.");
+if(myVariable){
+  console.log("I'm truthy");
+}else{
+  console.log("I'm falsy");
 }
